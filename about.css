@@ -1,0 +1,58 @@
+
+.header{
+    background-color: rgb(176, 182, 182);
+}
+
+.nav-link{
+    color:rgb(13, 14, 14) !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bold !important;
+    
+}
+
+h1{
+    margin-left: 30px;
+}
+
+img{
+    margin-left: 30px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+p{
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.footer p{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(131, 131, 128);
+    color: white;
+
+}
+
+@media(max-width:768px){
+   
+img{
+    margin-left: 30px;
+    width: 327px;
+    height: 250px;
+    border-radius: 12px;
+    } 
+
+    .footer p{
+        text-align: center;
+        padding: 8px;
+        background-color: rgb(131, 131, 128);
+        color: white;
+    }
+
+    
+}
